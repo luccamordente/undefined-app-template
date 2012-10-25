@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 GEMS = {}
 
 def gem name

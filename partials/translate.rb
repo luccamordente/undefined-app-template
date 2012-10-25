@@ -8,5 +8,7 @@ if ask "Mudar configurações para Brasil? (locale padrão e fuso horário) #{yn
   #       # config.i18n.default_locale = :de
   # para:   config.i18n.default_locale = :"pt-BR"
   gsub_file "config/application.rb", /(?:#\s)?(config.i18n.default_locale = ).*$/, '\1:"pt-BR"'
-  
+
+  get 'https://raw.github.com/svenfuchs/rails-i18n/master/rails/locale/pt-BR.yml', 'config/locales/pt-BR.yml'
+
 end
