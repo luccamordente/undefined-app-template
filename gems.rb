@@ -6,7 +6,7 @@ def gem name
   if version = GEMS[name]
     super name, GEMS[name]
   else
-    puts error "Gem #{name} não registrada"
+    say error "Gem #{name} não registrada"
   end
 end
 

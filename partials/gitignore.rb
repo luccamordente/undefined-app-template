@@ -7,9 +7,10 @@ gitignore = <<-GITIGNORE
 .bundle
 Gemfile.lock
 
-# Database Related
+# Security Preventions
 db/*.sqlite3
 config/database.yml
+config/initializers/smtp.rb
 
 # Monitoring files
 log/*
@@ -21,8 +22,12 @@ uploads/*
 .powrc
 
 # Vendor and Data files
+pkg/*
 public/uploads/*
 public/clicktale/*
+
+# Caches
+.sass-cache
 
 # Emacs Temporary Files
 *~
