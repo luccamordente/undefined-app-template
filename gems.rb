@@ -15,3 +15,4 @@ end
 # liste as gems aqui
 
 GEMS["simple_form"] = '~> 2.0.2'
+GEMS["fabrication"] = '~> 2.5'
