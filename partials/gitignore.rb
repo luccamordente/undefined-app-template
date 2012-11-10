@@ -16,7 +16,7 @@ config/initializers/smtp.rb
 
 # Monitoring files
 log/*
-tmp/**/*
+tmp/*
 uploads/*
 
 # Run Commands Files
