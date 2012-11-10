@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 gitignore = <<-GITIGNORE
 
 # Mac OS X Files

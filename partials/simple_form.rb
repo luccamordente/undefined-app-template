@@ -1,15 +1,17 @@
+# encoding: utf-8
+
 if yes? "Instalar simple form? #{yn}".magenta
 
   gem "simple_form"
-  
+
   bundle
-  
+
   options = []
   options << "--bootstrap" if yes? indent "Com Twitter Bootstrap? #{yn}".red
-  
+
   generate "simple_form:install", *options
-  
-  
+
+
   locale = <<-LOCALE
 pt-BR:
   simple_form:
@@ -39,6 +41,6 @@ pt-BR:
 LOCALE
 
   file "config/locales/simple_form.pt-BR.yml", locale if yes? indent "Criar tradução pt-BR? #{yn}".red
-  
+
 end
 puts "\n"

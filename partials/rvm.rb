@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # Set up rvm private gemset
 
 if yes? "Utilizar novo gemset com RVM? #{yn}".magenta
@@ -26,7 +28,7 @@ if yes? "Utilizar novo gemset com RVM? #{yn}".magenta
   run "rvm rvmrc trust #{@app_path}"
 
   # Since the gemset is likely empty, manually install bundler so it can install the rest
-  run "#{@rvm} gem install bundler"
+  run "#{@rvm} gem install bundler --no-rdoc --no-ri"
 
   # Install all other gems needed from Gemfile
   run "#{@rvm} exec bundle install"
