@@ -7,7 +7,6 @@ gitignore = <<-GITIGNORE
 
 # Bundler
 .bundle
-Gemfile.lock
 
 # Security Preventions
 db/*.sqlite3
