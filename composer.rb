@@ -9,7 +9,6 @@ end
 
 require "colored"
 
-
 # Directories for template partials and static files
 @template_root = File.expand_path(File.join(File.dirname(__FILE__)))
 @partials      = File.join(@template_root, 'partials') # TODO: chamar cada um com apply
@@ -38,8 +37,11 @@ recipe "gitignore"
 
 bundle "install"
 
+recipe "stylus"
 recipe "simple_form"
 recipe "translate"
+
+recipe "powify"
 
 recipe "commit"
 

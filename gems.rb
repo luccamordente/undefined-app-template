@@ -17,6 +17,16 @@ end
 # App (Development & Production)
 GEMS["simple_form"] = '>= 2.0.2'
 
+# TODO if ask "Utilizar haml ou stylus?"
+GEMS["haml"] = '>= 3.1.7'
+GEMS["stylus"] = '>= 0.6.2'
+
+
+GEMS["bower-rails"] = '>= 0.0.4'
+
+# App Development
+GEMS["powify"] = '>= 0.8.5'
+
 # Test
 GEMS["fabrication"]      = '>= 2.5'
 GEMS["database_cleaner"] = '>= 0.9.1'
