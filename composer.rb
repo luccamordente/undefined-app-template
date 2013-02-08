@@ -39,6 +39,8 @@ bundle "install"
 
 recipe "stylus"
 recipe "simple_form"
+recipe "pry"
+
 recipe "translate"
 
 recipe "powify"
