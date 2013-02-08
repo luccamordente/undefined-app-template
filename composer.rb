@@ -37,6 +37,7 @@ recipe "gitignore"
 
 bundle "install"
 
+recipe "haml"
 recipe "stylus"
 recipe "simple_form"
 recipe "pry"

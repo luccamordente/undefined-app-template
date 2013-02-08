@@ -18,8 +18,8 @@ end
 GEMS["simple_form"] = '>= 2.0.2'
 
 # TODO if ask "Utilizar haml ou stylus?"
-GEMS["haml"]   = '>= 3.1.7'
-GEMS["stylus"] = '>= 0.6.2'
+GEMS["haml-rails"] = '>= 0.3.5'
+GEMS["stylus"]     = '>= 0.6.2'
 
 
 GEMS["bower-rails"] = '>= 0.0.4'
