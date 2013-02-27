@@ -1,0 +1,3 @@
+* rspec
+* guard
+* guard-livereload
